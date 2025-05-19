@@ -1,0 +1,60 @@
+#MainOuterDiv{
+    background-color: rgb(9, 9, 95);
+    height: 100vh;
+    max-width: 100vw;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#divForAllBtn button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+#OuterDiv{
+    border: 2px solid red;
+    height: 500px;
+    max-width: 400px;
+    width: 80%;
+    padding: 10px;
+}
+#divForBtns{
+    border: 2px solid pink;
+    height: 100px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+mainSection{
+    border: 2px solid white;
+    max-height: 400px;
+    height: 75%;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    overflow: auto;
+ }
+
+#TodoInput{
+    border: 2px solid white;
+    max-width: 300px;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+ }
+#AddBtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+ul li{
+    color: white;
+}
